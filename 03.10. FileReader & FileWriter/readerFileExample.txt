@@ -1,0 +1,6 @@
+zadanie
+reader
+czytam linijka
+jedna po drugiej
+hop
+siup
