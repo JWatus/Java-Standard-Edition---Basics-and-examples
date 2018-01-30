@@ -22,4 +22,6 @@ public class Dots {
         }
         System.out.println("Suma kropek: " + sumaKropek);
     }
+
+
 }

@@ -1,4 +1,4 @@
-package com.infoshare.Conversion;
+package com.infoshare;
 
 import java.util.Scanner;
 

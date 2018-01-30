@@ -7,7 +7,6 @@ public class Main {
 
     public static void main(String[] args) {
 
-/*
         Pizza pizza = new Pizza();
         pizza.orderPizza();
 
@@ -24,11 +23,23 @@ public class Main {
         devs.showInfo("Imię deva", "Dev");
 
         Bubble.bubble();
-*/
 
         Names newNames = new Names();
         newNames.getName();
 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        Fraction one = new Fraction();
+        Fraction two = new Fraction();
+        Fraction three = new Fraction();
+        Fraction four = new Fraction();
+
+        one.fractionMethod(9.7, 1, 5);
+        two.fractionMethod(1076.53, 11, 5);
+        three.fractionMethod(19.743, 111, 2);
+        four.fractionMethod(3.0, 2, 3);
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     }
 }
