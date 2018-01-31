@@ -41,6 +41,26 @@ public class Main {
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+        Generic<String> gs = new Generic<>();
+        Generic<Integer> gi = new Generic<>();
+        Generic gen = new Generic();
+
+        gs.showClass();
+        gi.showClass();
+        gen.showClass();
+
+        gs.set("S");
+        gi.set(1);
+        gen.set(2.0);
+
+        gs.showItemClass();
+        gi.showItemClass();
+        gen.showItemClass();
+
+        System.out.println(gs.get());
+        System.out.println(gi.get());
+        System.out.println(gen.get());
+
     }
 }
 
