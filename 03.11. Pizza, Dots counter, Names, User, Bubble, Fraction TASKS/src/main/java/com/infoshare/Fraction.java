@@ -2,17 +2,15 @@ package com.infoshare;
 
 public class Fraction {
 
-    int counter;
-    int denominator;
-    double value;
+    double counter;
+    double denominator;
 
-    public void fractionMethod(double value,  int counter, int denominator) {
+    public void fractionMethod(double counter, double denominator) {
 
         this.counter = counter;
         this.denominator = denominator;
-        this.value = value;
 
-        System.out.println(value+"["+counter+"/"+denominator+"]");
+        System.out.println(counter/denominator+"["+counter+"/"+denominator+"]");
     }
 
 }

@@ -34,10 +34,10 @@ public class Main {
         Fraction three = new Fraction();
         Fraction four = new Fraction();
 
-        one.fractionMethod(9.7, 1, 5);
-        two.fractionMethod(1076.53, 11, 5);
-        three.fractionMethod(19.743, 111, 2);
-        four.fractionMethod(3.0, 2, 3);
+        one.fractionMethod(1, 5);
+        two.fractionMethod( 11, 5);
+        three.fractionMethod( 111, 2);
+        four.fractionMethod(2, 3);
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 

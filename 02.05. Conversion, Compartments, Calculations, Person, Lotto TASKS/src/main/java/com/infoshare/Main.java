@@ -4,6 +4,7 @@ import com.infoshare.Calculations.*;
 import com.infoshare.Conversion.*;
 import java.util.Collections;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 
 public class Main {
@@ -11,8 +12,8 @@ public class Main {
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-        Conversion kon = new Conversion();
-        kon.translate();
+//        Conversion kon = new Conversion();
+//        kon.translate();
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -47,14 +48,21 @@ public class Main {
             System.out.println(man);
         }
 
+        Collections.sort(lista, Comparator.reverseOrder());
+
+        System.out.println("\nOdwrócona kolejność: ");
+        for (Person man : lista) {
+            System.out.println(man);
+        }
+
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-        Lotto lotto = new Lotto();
-        lotto.draw();
+//        Lotto lotto = new Lotto();
+//        lotto.draw();
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-        Compartment.setCompartment();
+//        Compartment.setCompartment();
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
